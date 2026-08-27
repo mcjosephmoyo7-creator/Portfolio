@@ -60,13 +60,22 @@ const Hero = () => {
             Hi! I&apos;m Mc Joseph, a Full Stack Developer based in Zimbabwe, Passionate about building modern, responsive and user-friendly web applications.
           </p>
 
-          <a href="#about">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex gap-4">
+            <a href="#projects">
+              <MagicButton
+                title="Show my work"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+            <a href="/cv.pdf">
+              <MagicButton
+                title="View Cv"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </div>
