@@ -61,7 +61,7 @@ export const projects = [
   {
     id: 1,
     title: "Flames Website",
-    des: "A responsive food ordering website for Flames Restaurant featuring a multi-page menu, shopping cart with add/remove functionality, order summary with pricing breakdown, and animated UI elements.",
+    des: "A food ordering site for Flames Restaurant. Multi-page menu, a cart you can really add to and tweak, and a live order summary that updates as you go. Built it for a fast, friendly ordering flow.",
     img: "/p1.png",
     iconLists: ["/html.svg", "/css.svg", "/js.svg"],
     link: "https://flames-project-main.vercel.app/",
@@ -69,7 +69,7 @@ export const projects = [
   {
     id: 2,
     title: "JumpStart",
-    des: "A React-based youth empowerment platform for a mental health and skill-building program, featuring a Swiper carousel, glassmorphism UI, responsive navigation, and dedicated resource sections for kids, parents, and teachers.",
+    des: "A landing site for a youth mental-health and skill-building program. Swiper carousel, glassmorphism cards, a responsive nav, and separate resource pages for kids, parents, and teachers.",
     img: "/p2.png",
     iconLists: ["/re.svg", "/sc.svg", "/swiper.svg"],
     link: "https://jumpstart-nb7f.vercel.app/",
@@ -77,7 +77,7 @@ export const projects = [
   {
     id: 3,
     title: "African Coast Travel & Tours",
-    des: "A full-featured travel agency website showcasing African destinations across six countries, with lazy-loaded routing, tour search with filters, dark/light theme toggle, and 12+ pages including destination details and activity listings.",
+    des: "A travel agency site covering tours across six African countries. Lazy-loaded routes, a searchable tour filter, and a dark/light mode — plus detail pages for each destination instead of a single-page mock.",
     img: "/p3.png",
     iconLists: ["/re.svg", "/vite.svg", "/sc.svg", "/router.svg"],
     link: "https://african-coast-travel-and-tours.vercel.app/",
@@ -85,7 +85,7 @@ export const projects = [
   {
     id: 4,
     title: "TaskMate",
-    des: "A React task management application with add, complete, and delete functionality, featuring a three-theme toggle system (dark, light, purple) with smooth transitions and localStorage persistence.",
+    des: "A small task manager I use for my own lists — add, complete, and clear tasks. Pick between dark, light, and purple themes, and it keeps your tasks around thanks to localStorage.",
     img: "/p4.png",
     iconLists: ["/re.svg", "/vite.svg", "/sc.svg", "/router.svg"],
     link: "https://todoo-web.netlify.app/",

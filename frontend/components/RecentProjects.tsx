@@ -20,8 +20,9 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title=" Live server "
+              title=" Visit live site "
               href={item.link}
+              containerClassName="py-2"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -44,7 +45,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-base lg:font-normal font-light text-sm leading-relaxed line-clamp-3"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -72,10 +73,10 @@ const RecentProjects = () => {
                   href={item.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex justify-center items-center lg:text-xl md:text-xs text-sm text-purple"
+                  className="flex items-center gap-2 text-sm md:text-base text-purple font-medium hover:gap-3 transition-all"
                 >
-                  <FaArrowRight className="me-3" color="#CBACF9" />
-                  <span>Live server</span>
+                  <FaArrowRight className="text-purple/80" />
+                  <span>View project</span>
                 </a>
               </div>
             </PinContainer>
