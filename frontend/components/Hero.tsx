@@ -68,7 +68,7 @@ const Hero = () => {
                 position="right"
               />
             </a>
-            <a href="/cv.pdf">
+            <a href="/cv.pdf?v=20260923" target="_blank" rel="noreferrer">
               <MagicButton
                 title="View Cv"
                 icon={<FaLocationArrow />}
